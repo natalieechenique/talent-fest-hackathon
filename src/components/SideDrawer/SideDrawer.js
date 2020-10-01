@@ -16,41 +16,56 @@ export const SideDrawer = (props) => {
 
   return (
     <div className="main-container">
+
       <nav className={drawerClasses}>
+
         <ul>
-           
+
           <li>
             <img src={Activities} alt="side drawer img" className='icon' />
             <a href="/Activities">Actividades</a>
           </li>
+
           <li>
             <img src={Important} alt="side drawer img" className='icon' />
             <a href="/Important">Importantes</a>
           </li>
           <li>
+
             <img src={Scheduled} alt="side drawer img" className='icon' />
             <a href="/Scheduled">Agendadas</a>
           </li>
           <li>
+
             <img src={Assigned} alt="side drawer img" className='icon' />
             <a href="/Assigned">Asignadas</a>
           </li>
           <li>
+
             <img src={Week} alt="side drawer img" className='icon' />
             <a href="/Week">Mi semana</a>
           </li>
           <li>
-            <img src={Ranking} alt="side drawer img" className='icon' />
+
+            <img src={Ranking} alt="side drawer img" className='icon2' width='80px' margin='50px'/>
             <a href="/Ranking">Ranking</a>
           </li>
-        </ul>
-        <ul className="Resting">
-          <li>
-            <img src={Break} alt="side drawer img" className='icon' />
+          <br></br> <br></br>
+          </ul>
+
+
+            <ul>
+
+            <span className='resting'>
+            <img src={Break} alt="side drawer img" className='icon3' />
             <a href="/Resting">Descansando</a>
-          </li>
-        </ul>
+            </span>
+    
+           </ul>
+
+     
       </nav>
+
     </div>
   );
 };

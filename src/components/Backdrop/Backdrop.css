@@ -4,8 +4,10 @@
     height:100%;
     top:0;
     left:0;
-    background:rgba(0,0,0,0.3);
+    background:rgba(22, 27, 35, 0.681);
     z-index:100;
+    list-style:none;
+    color:white;
 }
 
 .Selector a:hover,
@@ -13,9 +15,27 @@
 color:rgba(216, 160, 99, 0.939);
 }
 
-/* @media (min-width: 769px) {
+@media (min-width: 769px) {
     .Selector {
         display:flex;
         flex-direction:column;
 }
-} */
+
+.backdrop {
+    position:fixed;
+    width:20%;
+    height:100%;
+    top:0;
+    left:0;
+    background:rgb(22, 27, 35, 0.681);
+    z-index:100;
+    list-style:none;
+    color:white;
+}
+
+.Selector a:hover,
+.Selector a:active {
+color:rgba(216, 160, 99, 0.939);
+}
+
+}
